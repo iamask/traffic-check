@@ -1,0 +1,40 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "if-traffc-report",
+	"main": "src/index.js",
+  "compatibility_flags": [
+      "nodejs_compat"
+    ],
+	"compatibility_date": "2025-02-14",
+	"observability": {
+		"enabled": true
+	},
+  "vars": { "API_TOKEN": "7UxhV50vMdGgb0qcKAg28bu0bv-RPBh8kINav4rW",
+          "ZONE_TAG" : "bcbaeaa288da7324b61d91b0e41adc90" },
+  "send_email": [{ "name" : "SEND_EMAIL"}],
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  }
+    
+  
+  
+
+
+  /**
+   * Static Assets
+   * https://developers.cloudflare.com/workers/static-assets/binding/
+   */
+  // "assets": { "directory": "./public/", "binding": "ASSETS" },
+
+  /**
+   * Service Bindings (communicate between multiple Workers)
+   * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
+   */
+  // "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
+}
