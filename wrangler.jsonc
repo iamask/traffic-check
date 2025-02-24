@@ -13,8 +13,8 @@
 	"observability": {
 		"enabled": true
 	},
-  "vars": { "API_TOKEN": "7UxhV50vMdGgb0qcKAg28bu0bv-RPBh8kINav4rW",
-          "ZONE_TAG" : "bcbaeaa288da7324b61d91b0e41adc90" },
+  "vars": { "API_TOKEN": "7UxhV50vMdv-RPBh8kINav4rW",
+          "ZONE_TAG" : "bcbaea1d91b0e41adc90" },
   "send_email": [{ "name" : "SEND_EMAIL"}],
   "triggers": {
     "crons": [
