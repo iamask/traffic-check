@@ -7,8 +7,8 @@ export default {
 
         const API_TOKEN = env.API_TOKEN;
         const ZONE_TAG = env.ZONE_TAG;
-        const SENDER_EMAIL = "admin@zxc.co.in"; // Sender email
-        const RECIPIENT_EMAIL = "ajays@cloudflare.com"; // Recipient email
+        const SENDER_EMAIL = "admin@company.com"; // Sender email
+        const RECIPIENT_EMAIL = "socc@company.com"; // Recipient email
 
         console.log("ZONE_TAG:", ZONE_TAG);
 
